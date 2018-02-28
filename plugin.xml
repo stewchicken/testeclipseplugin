@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+       <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            id="test.PerspectiveFactory"
+            name="%perspectives.testname"
+            class="test.PerspectiveFactory"
+            fixed="true"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Sample Category"
+            id="test">
+      </category>
+      <view
+            name="Sample View"
+            icon="icons/sample.gif"
+            category="test"
+            class="test.views.SampleView"
+            id="test.views.SampleView">
+      </view>
+        <view
+            name="Second View"
+            icon="icons/sample.gif"
+            category="test"
+            class="test.views.SecondView"
+            id="test.views.SecondView">
+      </view>
+   </extension>
+   
+</plugin>

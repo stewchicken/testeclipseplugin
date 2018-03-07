@@ -12,11 +12,11 @@
 - http://www.vogella.com/tutorials/EclipseRCP 
 - http://www.vogella.com/tutorials/EclipseJFaceTable/article.html#tutorial-jface-table-viewer 
 
-##	how to implement preference for eclipse plugin 
+##	How to implement preference for eclipse plugin 
 - http://www.vogella.com/tutorials/EclipsePreferences/article.html#setting-preferences-via-plugin_customization-ini 
 
 
-##	how to use third party lib in eclipse plugin
+##	How to use third party lib in eclipse plugin
 - https://stackoverflow.com/questions/10378087/how-to-disable-enable-view-toolbar-menu-action-in-eclipse-plugin-development 
 - https://stackoverflow.com/questions/5744520/adding-jars-to-a-eclipse-plugin 
 
